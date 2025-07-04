@@ -1,8 +1,8 @@
-// 📁 src/context/Context.js
+
 import { createContext, useContext, useState, useEffect,useRef } from "react";
 import { useLocation } from "react-router-dom";
 
-// Create context
+
 const SidebarContext = createContext();
 
 export function ContextProvider({ children }) {
@@ -11,7 +11,7 @@ export function ContextProvider({ children }) {
   const location = useLocation();
 
 const watchPage = location.pathname.startsWith("/watch/");
-  // Close sidebar on route change
+
   useEffect(() => {
     setIsOpen(false);
   }, [location]);
