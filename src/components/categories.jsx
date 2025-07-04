@@ -66,8 +66,7 @@ export default function CategoryScrollBar() {
       >
         <MdChevronLeft size={24} />
       </button>
-
-      {/* Scrollable Category List */}
+       
       <div
         ref={scrollRef}
         className="flex  overflow-x-auto space-x-3 scrollbar-hide px-8"
