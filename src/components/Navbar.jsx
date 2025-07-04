@@ -46,7 +46,6 @@ const {isOpen,setIsOpen,handleListening}= useSidebarContext();
   <BsMicFill />
   </button>
       
-      {/* ➕ Create Button */}
       <button className=" max-sm:hidden flex items-center bg-gray-100 hover:bg-gray-200 text-black px-4 py-2 rounded-full text-lg font-medium">
         <BsPlus className="text-2xl" />
         Create
